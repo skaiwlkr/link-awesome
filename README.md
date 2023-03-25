@@ -1,42 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Link Awesome
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Easy to use link collection for developers**
 
-## Setup
+An open source alternative to linktree.
 
-Make sure to install the dependencies:
+## Quick Start
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fskaiwlkr%2Flink-awesome)
 
-```bash
-# yarn
-yarn install
+## Contributors
+Created by [skaiwlkr](https://skaiwlkr.com).
 
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+You're always welcome to contribute - Just create a pull request.
