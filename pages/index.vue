@@ -5,9 +5,8 @@
 </script>
 
 <template>
-    <div>
-        <h1>Hello world!</h1>
-        <p>{{ avatar }}</p>
+    <div class="flex flex-col items-center mt-16 mb-3">
+        <Avatar :avatar="avatar"/>
         <p>{{ bio }}</p>
         <p>{{ links }}</p>
     </div>
