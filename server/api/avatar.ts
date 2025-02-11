@@ -1,6 +1,6 @@
 export default defineEventHandler(() => (
     {
-        title: 'alt-tag',
+        alt: 'alt-tag',
         image: 'favicon.ico'
     }
 ));  
