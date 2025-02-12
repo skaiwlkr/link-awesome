@@ -1,13 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.scss'],
-
+  css: ['~/assets/styles/main.scss'],
   postcss: {
-      plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
-      },
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
-
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/styles/foundation/foundation.scss" as *;'
+        }
+      }
+    }
+  },
   compatibilityDate: '2025-02-08',
 })
