@@ -10,9 +10,9 @@
 const { data: bio } = await useFetch('/api/bio')
 
 defineProps ({
-    bio: {
-        type: Object,
-        required: true
-    },
+    title: String,
+    description: String,
+    subtext: String,
+    required: true
 })
 </script>
