@@ -10,9 +10,8 @@
 const { data: avatar } = await useFetch('/api/avatar')
 
 defineProps ({
-    avatar: {
-        type: Object,
-        required: true
-    },
+    image: String,
+    alt: String,
+    required: true
 })
 </script>
