@@ -1,36 +1,36 @@
-export default defineEventHandler(() => (
-    [
+export default defineEventHandler((event) => {
+    return [
         {
-            group_title: 'Group 1',
+            group: 'Group 1',
             links:
             [
                 {
-                    name: 'Example 1',
+                    title: 'Example 1',
                     url: 'https://google.com',
                     target: '_blank'
                 },
                 {
-                    name: 'Example 1',
+                    title: 'Example 1',
                     url: 'https://google.com',
                     target: '_blank'
                 }
             ]
         },
         {
-            group_title: 'Group 2',
+            group: 'Group 2',
             links:
             [
                 {
-                    name: 'Example 1',
+                    title: 'Example 1',
                     url: 'https://google.com',
                     target: '_blank'
                 },
                 {
-                    name: 'Example 1',
+                    title: 'Example 1',
                     url: 'https://google.com',
                     target: '_blank'
                 }
             ]
         }
     ]
-));  
+})
