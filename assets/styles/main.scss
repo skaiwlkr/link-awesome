@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Basic
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+body {
+  font-family: SpaceGrotesk;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  background: #11181C;
+  color: white;
+}
